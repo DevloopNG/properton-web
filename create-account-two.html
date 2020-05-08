@@ -19,8 +19,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--
-        CSS
-        ============================================= -->
+                CSS
+                ============================================= -->
     <link rel="stylesheet" href="asset/css/linearicons.css">
     <link rel="stylesheet" href="asset/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/css/bootstrap.css">
@@ -30,25 +30,25 @@
     <link rel="stylesheet" href="asset/css/animate.min.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
     <link rel="stylesheet" href="asset/css/main.css">
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
 <body>
 
     <header id="header">
-        <div class="container main-menu">
-            <div class="row align-items-center justify-content-between d-flex">
-                <div id="logo">
-                    <a href=""><img src="" alt="" title="" />PROPERTON</a>
+        <div class="container main-menu NavTop">
+            <div class="row align-items-center justify-content-between">
+                <div id="logo" class="loGo">
+                    <a href=""><img src="" alt="" title="" /><span id="logoName">PROPERTON</span></a>
+                    <p class="eBuild">...easy build!</p>
                 </div>
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
+                <nav id="nav-menu-container" class="">
+                    <ul class="nav-menu loGo2">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="create-account-one.html">Create Account</a></li>
+                        <li><a href="register.html">Create Account</a></li>
                         <li><a href="invest.html">Invest</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="login.html">Login</a> <i class="fa fa-user-circle-o"></i></li>
-
-
+                        <li><a href="/dashboard/dashboard.html">Dashboard</a> <i class="fa fa-user-secret"></i></li>
                     </ul>
                 </nav>
                 <!-- #nav-menu-container -->
@@ -70,26 +70,33 @@
 
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-9 col-md-6  ">
-                            <div class="pt-1" style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-1"
+                                style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle"><i class="fa fa-star"></i></p>
                             </div>
                         </div>
 
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;"></div>
+                            <div
+                                style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;">
+                            </div>
                         </div>
 
                         <div class="col-md-9 col-md-6 text-black">
-                            <div class="pt-20" style="width:70px; height:70px; border:3px solid #000; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-20"
+                                style="width:70px; height:70px; border:3px solid #000; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle">2</p>
                             </div>
                         </div>
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;"></div>
+                            <div
+                                style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;">
+                            </div>
                         </div>
 
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div class="pt-20" style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-20"
+                                style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle">3</p>
                             </div>
                         </div>
@@ -111,7 +118,9 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <label for="nationality">Nationality:</label>
-                                <input type="text" name="nationality" id="nationality" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nationality'" required class="single-input" style="border-bottom:2px solid #000;">
+                                <input type="text" name="nationality" id="nationality" onfocus="this.placeholder = ''"
+                                    onblur="this.placeholder = 'Nationality'" required class="single-input"
+                                    style="border-bottom:2px solid #000;">
 
                             </div>
 
@@ -120,22 +129,27 @@
                                 <label for="gender">Gender:</label>
                                 <div class="input-group-icon ">
                                     <div class="form-select " id="default-select2">
-                                        <select name="gender" id="gender" class="form-control" style="border:none; border-bottom:2px solid #000;border-radius:0;">
-                                                <option value="male">Male</option>
-                                                <option value="female">Female</option>                                     
-                                            </select>
+                                        <select name="gender" id="gender" class="form-control"
+                                            style="border:none; border-bottom:2px solid #000;border-radius:0;">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
                                     </div>
                                 </div>
 
                             </div>
                             <div class="col-md-4">
                                 <label for="occupation">Occupation:</label>
-                                <input type="text" name="occupation" id="occupation" value="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Occupation'" required class="single-input" style="border-bottom:2px solid #000;">
+                                <input type="text" name="occupation" id="occupation" value=""
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Occupation'" required
+                                    class="single-input" style="border-bottom:2px solid #000;">
 
                             </div>
                             <div class="col-md-1 mt-20" style="text-align:center;">
                                 <!-- <button class="btn" style="background:transparent;padding:0;"><i class="fa fa-arrow-circle-o-right" style="font-size:xxx-large"></i></button> -->
-                                <a class="btn" href="create-account-three.html" style=" background:transparent;padding:0; "><i class="fa fa-arrow-circle-o-right " style="font-size:xxx-large "></i></a>
+                                <a class="btn" href="create-account-three.html"
+                                    style=" background:transparent;padding:0; "><i class="fa fa-arrow-circle-o-right "
+                                        style="font-size:xxx-large "></i></a>
 
                             </div>
                         </div>
@@ -181,13 +195,17 @@
                         <h4>Newsletter</h4>
                         <p>Stay updated with our latest trends</p>
                         <div class=" " id="mc_embed_signup ">
-                            <form target="_blank " action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 " method="get ">
+                            <form target="_blank "
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 "
+                                method="get ">
                                 <div class="input-group ">
-                                    <input type="text " class="form-control " name="EMAIL " placeholder="Enter Email Address " onfocus="this.placeholder='' " onblur="this.placeholder='Enter Email Address ' " required=" " type="email ">
+                                    <input type="text " class="form-control " name="EMAIL "
+                                        placeholder="Enter Email Address " onfocus="this.placeholder='' "
+                                        onblur="this.placeholder='Enter Email Address ' " required=" " type="email ">
                                     <div class="input-group-btn ">
                                         <button class="btn btn-default " type="submit ">
-                                <span class="lnr lnr-arrow-right "></span>
-                              </button>
+                                            <span class="lnr lnr-arrow-right "></span>
+                                        </button>
                                     </div>
                                     <div class="info "></div>
                                 </div>

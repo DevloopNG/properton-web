@@ -1,0 +1,76 @@
+#logoName {
+  font-size: 1.5rem;
+  color: rgb(24, 23, 23);
+  font-weight: bold;
+}
+.NavTop {
+  border-bottom: 0.3rem solid rgb(41, 41, 245);
+  padding-bottom: 0 !important;
+  padding-top: 1rem !important;
+}
+.loGo {
+  display: inline-block;
+  width: 100% !important;
+  text-align: center !important;
+}
+.loGo2 {
+  display: inline-block;
+  width: 100%;
+  margin-left: 70%;
+}
+.mtop {
+  margin-top: -20rem;
+  height: 100vh;
+}
+.mP {
+  margin-top: 20rem;
+}
+.insight {
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+}
+.eBuild {
+  margin-bottom: 0.2rem;
+}
+.fSect {
+  margin-top: 8rem;
+}
+.imgH {
+  max-width: 80%;
+  margin-left: 2rem;
+}
+/* .banner-area {
+  height: 50pc !important;
+} */
+a,
+.rLogo {
+  text-decoration: none !important;
+}
+.card,
+.card-header {
+  border: none;
+  background-color: #fff;
+}
+.investFont {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: rgb(12, 11, 11);
+}
+.navHead {
+  width: 84%;
+  margin: auto;
+  border-bottom: 0.1rem solid black;
+  margin-top: 6.5rem;
+}
+.active {
+  color: white;
+ /* background-color: rgb(33, 33, 253);*/
+}
+.accLeft {
+  margin-left: -18rem;
+}
+.font39 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(12, 11, 11);
+}
