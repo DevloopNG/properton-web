@@ -81,5 +81,6 @@ function signup(event) {
 };
 
 $(document).ready(function () {
-    checkLogin();
+    //TODO: Use this to check if current user is logged in.
+    //checkLogin();
 });
