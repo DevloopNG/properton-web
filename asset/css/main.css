@@ -161,7 +161,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #000;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -174,11 +174,14 @@ h4, h5, h6 {
   margin-top: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #222222;
+  color: #000;
 }
 
 h1, .h1 {
-  font-size: 36px;
+  /*font-size: 36px;*/
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 64px;
 }
 
 h2, .h2 {
@@ -924,7 +927,7 @@ b, sup, sub, u, del {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 h2 {
@@ -4312,7 +4315,7 @@ dl.accordion.time-line:before {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background-color: #04091e;
+  background: #3A7EC1;
 }
 
 .single-footer-widget h4 {
