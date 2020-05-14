@@ -36,19 +36,22 @@
 <body>
 
     <header id="header">
-        <div class="container main-menu NavTop">
+        <div class="container-fluid main-menu NavTop">
             <div class="row align-items-center justify-content-between">
                 <div id="logo" class="loGo">
                     <a href=""><img src="" alt="" title="" /><span id="logoName">PROPERTON</span></a>
                     <p class="eBuild">...easy build!</p>
                 </div>
+            </div>
+            <div class="d-flex justify-content-center">
                 <nav id="nav-menu-container" class="">
                     <ul class="nav-menu loGo2">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="register2.html">Create Account</a></li>
                         <li><a href="invest.html">Invest</a></li>
-                        <li><a href="login.html">Login</a> <i class="fa fa-user-circle-o"></i></li>
-                        <li><a href="dashboard/dashboard.html">Dashboard</a> <i class="fa fa-user-secret"></i></li>
+                        <li><a href="">Co-own</a></li>
+                        <li><a href="login.html">Login</a> <!-- <i class="fa fa-user-circle-o"></i> --></li>
+                        <!-- <li><a href="dashboard/dashboard.html">Dashboard</a> <i class="fa fa-user-secret"></i></li> -->
                     </ul>
                 </nav>
                 <!-- #nav-menu-container -->
@@ -57,20 +60,20 @@
     </header>
     <!-- #header -->
     <!-- start banner Area -->
-    <section class="banner-area fSect">
-        <div class="container">
-            <div class="row fullscreen align-items-center mtop justify-content-between h-100">
-                <div class="col-lg-6 col-md-6 banner-left mt-0">
-                    <p class="mP">
-                        <h2>EARN . MONITOR</h2>
-                        Properton gives you the privilege to receive great ROI's<br> on every investment done via
-                        crowdfunding and co-building procedures.<br> Monitor your earnings as you grow them and take
-                        smart decisions.
-                    </p>
-                    <a href="#" class="primary-btn text-uppercase insight">Insight</a>
+    <section class="pdtop-90">
+        <div class="container-fluid">
+            <div class="row fullscreen align-items-center justify-content-between h-100">
+                <div class="col-lg-6 col-md-6">
+                    <div class="text-center monitor-wrapper">
+                        <h1>EARN . MONITOR</h1>
+                        <p>Properton gives you the privilege to receive great ROI's<br> on every investment done via crowdfunding and co-building procedures.<br> Monitor your earnings as you grow them and take smart decisions.</p>
+                        <a href="#" class="primary-btn text-uppercase btn-insight">Insight</a>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-6 banner-right d-flex align-self-end w-100">
-                    <img class="img-fluid" src="asset/img/as.svg" alt="">
+                <div class="col-lg-6 col-md-6">
+                    <div class="img-wrapper">
+                        <img class="img-fluid" src="asset/img/as.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,7 +81,7 @@
     <!-- End banner Area -->
 
     <!-- Start first section  Area -->
-    <section class="home-about-area pt-120">
+    <!-- <section class="home-about-area pt-120">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-6 col-md-6 home-about-left">
@@ -95,10 +98,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End first section Area -->
     <!-- Start second-section Area -->
-    <section class="banner-area">
+    <!-- <section class="banner-area">
         <div class="container">
             <div class="row fullscreen">
                 <div class="col-lg-6 col-md-6 banner-left mt-0">
@@ -115,12 +118,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- End second-section Area -->
 
     <!-- Start brands Area -->
-    <section class="brands-area">
+    <!-- <section class="brands-area">
         <div class="container">
             <div class="brand-wrap">
                 <div class="row align-items-center active-brand-carousel justify-content-start no-gutters">
@@ -142,72 +145,63 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- End brands Area -->
 
     <!-- start footer Area -->
-    <footer class="footer-area section-gap">
+    <footer class="footer-area">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-6 col-sm-6">
+            <div class="single-footer-widget">
+                <ul>
+                    <li class="nav-item">
+                        <a href="privacypolicy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms And Conditions</a>
+                        <a href="disclaimers.html">Disclaimers</a>
+                        <a href="partners.html">Partners</a>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row pt-20">
+                <div class="col-lg-7 col-md-7 col-sm-12">
                     <div class="single-footer-widget">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Privacy Policy</a>
-                                <a class="nav-link" href="#">Terms And Conditions</a>
-                                <a class="nav-link" href="#">Disclaimers</a>
-                                <a class="nav-link" href="#">Partners</a>
-                                <a class="nav-link" href="contact">Contact</a>
-                            </li>
-
-                        </ul>
-
-                        <p class="footer-text">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | Properton
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h4>Newsletter</h4>
-                        <p>Stay updated with our latest trends</p>
-                        <div class="" id="mc_embed_signup">
-                            <form target="_blank"
-                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                method="get">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="EMAIL"
-                                        placeholder="Enter Email Address" onfocus="this.placeholder = ''"
-                                        onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default" type="submit">
-                                            <span class="lnr lnr-arrow-right"></span>
-                                        </button>
+                        <div class="d-flex">
+                            <div class="pr-30">
+                                <p>Stay updated with our latest trends</p>
+                            </div>
+                            <div class="" id="mc_embed_signup">
+                                <form target="_blank" action="" method="post">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="EMAIL"
+                                            placeholder="Enter Email Address" onfocus="this.placeholder = ''"
+                                            onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit">
+                                                <span class="lnr lnr-arrow-right"></span>
+                                            </button>
+                                        </div>
+                                        <div class="info"></div>
                                     </div>
-                                    <div class="info"></div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                <div class="col-lg-5 col-md-5 col-sm-12 social-widget">
                     <div class="single-footer-widget">
-                        <h4>Follow Me</h4>
                         <p>Let us be social</p>
                         <div class="footer-social d-flex align-items-center">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-behance"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
+            <p class="text-center pt-30">Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> All rights reserved | Properton
+            </p>
         </div>
     </footer>
     <!-- End footer Area -->
