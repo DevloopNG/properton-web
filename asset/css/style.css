@@ -1,9 +1,3 @@
-header {
-  color: #000;
-}
-header .container-fluid {
-  width: 92%;
-}
 #logoName {
   font-weight: 900;
   font-size: 40px;
@@ -11,9 +5,9 @@ header .container-fluid {
   color: #000;
 }
 .NavTop {
-  border-bottom: 10px solid #3A7EC1;
+  border-bottom: 0.3rem solid rgb(41, 41, 245);
   padding-bottom: 0 !important;
-  padding-top: 2rem !important;
+  padding-top: 1rem !important;
 }
 .loGo {
   display: inline-block;
@@ -22,8 +16,7 @@ header .container-fluid {
 }
 .loGo2 {
   display: inline-block;
-  width: 100%;
-}
+  width: 100%;}
 .nav-menu a,
 .single-footer-widget ul li a {
   font-size: 18px;
@@ -53,9 +46,6 @@ header .container-fluid {
   margin-bottom: 1rem;
 }
 .eBuild {
-  font-size: 18px;
-  line-height: 24px;
-  margin-top: -10px;
   margin-bottom: 0.2rem;
 }
 .fSect {
@@ -100,7 +90,6 @@ a,
   font-size: 1.5rem;
   color: rgb(12, 11, 11);
 }
-
 .pdtop-90 {
   margin-top: 90px;
 }
