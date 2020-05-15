@@ -19,8 +19,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--
-        CSS
-        ============================================= -->
+            CSS
+            ============================================= -->
     <link rel="stylesheet" href="asset/css/linearicons.css">
     <link rel="stylesheet" href="asset/css/font-awesome.min.css">
     <link rel="stylesheet" href="asset/css/bootstrap.css">
@@ -30,25 +30,30 @@
     <link rel="stylesheet" href="asset/css/animate.min.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
     <link rel="stylesheet" href="asset/css/main.css">
+    <!-- <link rel="stylesheet" href="asset/css/style.css"> -->
+    <link rel="stylesheet" href="asset/css/style_temp.css">
 </head>
 
 <body>
 
     <header id="header">
-        <div class="container main-menu">
-            <div class="row align-items-center justify-content-between d-flex">
-                <div id="logo">
-                    <a href=""><img src="" alt="" title="" />PROPERTON</a>
+        <div class="container-fluid main-menu NavTop">
+            <div class="row align-items-center justify-content-between">
+                <div id="logo" class="loGo">
+                    <a href=""><img src="" alt="" title="" /><span id="logoName">PROPERTON</span></a>
+                    <p class="eBuild">...easy build!</p>
                 </div>
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
+            </div>
+            <div class="d-flex justify-content-center">
+                <nav id="nav-menu-container" class="">
+                    <ul class="nav-menu loGo2">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="create-account-one.html">Create Account</a></li>
                         <li><a href="invest.html">Invest</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="login.html">Login</a> <i class="fa fa-user-circle-o"></i></li>
-
-
+                        <li><a href="">Co-own</a></li>
+                        <li><a href="login.html">Login</a> <!-- <i class="fa fa-user-circle-o"></i> -->
+                        </li>
+                        <!-- <li><a href="dashboard/dashboard.html">Dashboard</a> <i class="fa fa-user-secret"></i></li> -->
                     </ul>
                 </nav>
                 <!-- #nav-menu-container -->
@@ -56,12 +61,14 @@
         </div>
     </header>
     <!-- #header -->
+    <!-- #header -->
 
     <!-- Start create account section  Area -->
     <section class="home-about-area pt-120 banner-area">
         <div class="container">
             <div class="row align-items-top justify-content-between">
                 <div class="col-lg-3 col-md-2 home-about-left text-center ">
+                    <div style="height: 55px;"></div>
                     <h3 class="text-uppercase">GET STARTED</h3>
                     <p>
                         Start off in 3 simple steps
@@ -70,26 +77,33 @@
 
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-9 col-md-6 justify-content-center text-black">
-                            <div class="pt-20" style="width:70px; height:70px; border:3px solid #000; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-20"
+                                style="width:70px; height:70px; border:3px solid #000; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle">1</p>
                             </div>
                         </div>
 
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;"></div>
+                            <div
+                                style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;">
+                            </div>
                         </div>
 
                         <div class="col-md-9 col-md-6">
-                            <div class="pt-20" style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-20"
+                                style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle">2</p>
                             </div>
                         </div>
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;"></div>
+                            <div
+                                style="width:4px; height:40px; border:3px solid #000; display: inline-block;font-size:20pt;">
+                            </div>
                         </div>
 
                         <div class="col-md-9 col-md-6 justify-content-center">
-                            <div class="pt-20" style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
+                            <div class="pt-20"
+                                style="width:70px; height:70px; border:3px solid #aaa; border-radius:100%; display: inline-block;font-size:4em; margin:0;">
                                 <p class="text-center align-middle">3</p>
                             </div>
                         </div>
@@ -111,19 +125,27 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <label for="last_name">Last Name:</label>
-                                <input type="text" name="last_name" value="" id="last_name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required class="single-input" style="border-bottom:2px solid #000;">
+                                <input type="text" name="last_name" value="" id="last_name"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required
+                                    class="single-input" style="border-bottom:2px solid #000;">
                             </div>
                             <div class="col-md-3">
                                 <label for="first_name">First Name:</label>
-                                <input type="text" name="first_name" value="" id="first_name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required class="single-input" style="border-bottom:2px solid #000;">
+                                <input type="text" name="first_name" value="" id="first_name"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" required
+                                    class="single-input" style="border-bottom:2px solid #000;">
                             </div>
                             <div class="col-md-4">
                                 <label for="phone_number">Phone Number:</label>
-                                <input type="text" name="phone_number" id="phone_number" value="" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required class="single-input" style="border-bottom:2px solid #000;">
+                                <input type="text" name="phone_number" id="phone_number" value=""
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'" required
+                                    class="single-input" style="border-bottom:2px solid #000;">
                             </div>
                             <div class="col-md-1 mt-20" style="text-align:center;">
                                 <!-- <button class="btn" style="background:transparent;padding:0;"><i class="fa fa-arrow-circle-o-right" style="font-size:xxx-large"></i></button> -->
-                                <a class="btn" href="create-account-two.html" style=" background:transparent;padding:0; "><i class="fa fa-arrow-circle-o-right " style="font-size:xxx-large "></i></a>
+                                <a class="btn" href="create-account-two.html"
+                                    style=" background:transparent;padding:0; "><i class="fa fa-arrow-circle-o-right "
+                                        style="font-size:xxx-large "></i></a>
                             </div>
                         </div>
                     </form>
@@ -168,13 +190,17 @@
                         <h4>Newsletter</h4>
                         <p>Stay updated with our latest trends</p>
                         <div class=" " id="mc_embed_signup ">
-                            <form target="_blank " action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 " method="get ">
+                            <form target="_blank "
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01 "
+                                method="get ">
                                 <div class="input-group ">
-                                    <input type="text " class="form-control " name="EMAIL " placeholder="Enter Email Address " onfocus="this.placeholder='' " onblur="this.placeholder='Enter Email Address ' " required=" " type="email ">
+                                    <input type="text " class="form-control " name="EMAIL "
+                                        placeholder="Enter Email Address " onfocus="this.placeholder='' "
+                                        onblur="this.placeholder='Enter Email Address ' " required=" " type="email ">
                                     <div class="input-group-btn ">
                                         <button class="btn btn-default " type="submit ">
-                                <span class="lnr lnr-arrow-right "></span>
-                              </button>
+                                            <span class="lnr lnr-arrow-right "></span>
+                                        </button>
                                     </div>
                                     <div class="info "></div>
                                 </div>
