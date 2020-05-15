@@ -1,8 +1,7 @@
 #logoName {
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 64px;
-  color: #000;
+  font-size: 1.5rem;
+  color: rgb(24, 23, 23);
+  font-weight: bold;
 }
 .NavTop {
   border-bottom: 0.3rem solid rgb(41, 41, 245);
@@ -16,31 +15,16 @@
 }
 .loGo2 {
   display: inline-block;
-  width: 100%;}
-.nav-menu a,
-.single-footer-widget ul li a {
-  font-size: 18px;
-  line-height: 26px;
+  width: 100%;
+  margin-left: 70%;
 }
-.nav-menu a {
-  padding: 0 35px;
-  position: relative;
-  bottom: -16px;
-  padding-bottom: 5px;
-}
-.nav-menu a:hover,
-.nav-menu a:active,
-.nav-menu .menu-active {
-  border-bottom: 10px solid #fff;
-}
-
 .mtop {
   margin-top: -20rem;
   height: 100vh;
 }
-/* .mP {
+.mP {
   margin-top: 20rem;
-} */
+}
 .insight {
   margin-left: 10rem;
   margin-bottom: 1rem;
@@ -76,7 +60,7 @@ a,
   width: 84%;
   margin: auto;
   border-bottom: 0.1rem solid black;
-  margin-top: 14.5rem;
+  margin-top: 6.5rem;
 }
 .active {
   color: white;
@@ -89,89 +73,4 @@ a,
   font-weight: bold;
   font-size: 1.5rem;
   color: rgb(12, 11, 11);
-}
-.pdtop-90 {
-  margin-top: 90px;
-}
-.img-wrapper {
-  margin-top: 100px;
-  margin-right: -15px;
-}
-p {
-  font-size: 20px;
-  line-height: 38px;
-  color: #000;
-}
-.monitor-wrapper {
-  margin-left: 30px;
-  margin-top: 100px;
-}
-.primary-btn {
-  padding: 5px 30px;
-  font-size: 20px;
-  line-height: 40px;
-  border-radius: 5px;
-  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
-}
-.primary-btn.btn-insight {
-  background: #FF7F00;
-  width: 65%;
-  margin-top: 40px;
-  color: #000;
-}
-/* footer */
-.footer-area {
-  padding: 35px 0;
-}
-.single-footer-widget ul li a:hover i {
-  color: #8490ff;
-}
-.single-footer-widget ul li a{
-  color: #FFF;
-}
-  footer p{
-    color: #FFF !important;
-}
-.footer-text {
-font-size: 16px !important;
-}
-/* invest page */
-.m-30 {
-  margin: 30px 0;
-}
-
-/* terms page */
-.file-wrapper {
-  display: flex;
-  margin-top: 10px;
-}
-.file-wrapper div {
-  margin-right: 10px;
-}
-.file-wrapper i {
-  font-size: 50px;
-  color: #777;
-}
-
-/* success page */
-.success-wrapper {
-  text-align: center;
-  width: 50%;
-  margin: 40px auto;
-}
-.success-wrapper .d-flex {
-  justify-content: center;
-  margin-top: 20px;
-}
-.icon-wrapper {
-  height: 150px;
-  width: 150px;
-  border: 5px solid #777;
-  border-radius: 50%;
-  padding-top: 15px;
-  margin: auto;
-  margin-bottom: 30px;
-}
-.icon-wrapper i {
-  font-size: 100px;
 }
