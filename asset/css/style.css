@@ -6,7 +6,7 @@ header .container-fluid {
 }
 #logoName {
   font-weight: 900;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 64px;
   color: #000;
 }
@@ -19,7 +19,6 @@ header .container-fluid {
   display: inline-block;
   width: 100% !important;
   text-align: center !important;
-  margin-bottom: 30px;
 }
 .loGo2 {
   display: inline-block;
@@ -27,7 +26,7 @@ header .container-fluid {
 }
 .nav-menu a,
 .single-footer-widget ul li a {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 26px;
 }
 .nav-menu a {
@@ -41,13 +40,14 @@ header .container-fluid {
 .nav-menu .menu-active {
   border-bottom: 10px solid #fff;
 }
+
 .mtop {
   margin-top: -20rem;
   height: 100vh;
 }
-.mP {
+/* .mP {
   margin-top: 20rem;
-}
+} */
 .insight {
   margin-left: 10rem;
   margin-bottom: 1rem;
@@ -100,6 +100,7 @@ a,
   font-size: 1.5rem;
   color: rgb(12, 11, 11);
 }
+
 .pdtop-90 {
   margin-top: 90px;
 }
@@ -109,7 +110,7 @@ a,
 }
 p {
   font-size: 20px;
-  line-height: 40px;
+  line-height: 38px;
   color: #000;
 }
 .monitor-wrapper {
@@ -129,18 +130,22 @@ p {
   margin-top: 40px;
   color: #000;
 }
+/* footer */
 .footer-area {
   padding: 35px 0;
 }
-.single-footer-widget ul li a,
-footer p {
+.single-footer-widget ul li a:hover i {
+  color: #8490ff;
+}
+.single-footer-widget ul li a{
   color: #FFF;
 }
-.nav-item {
-  display: flex;
-  justify-content: space-between;
+  footer p{
+    color: #FFF !important;
 }
-
+.footer-text {
+font-size: 16px !important;
+}
 /* invest page */
 .m-30 {
   margin: 30px 0;
@@ -180,14 +185,4 @@ footer p {
 }
 .icon-wrapper i {
   font-size: 100px;
-}
-
-@media screen and (max-width: 768px) {
-  .nav-item,
-  .single-footer-widget ul li a {
-    display: block;
-  }
-  .single-footer-widget ul li a {
-    margin-top: 1rem;
-  }
 }
