@@ -5,10 +5,9 @@ header .container-fluid {
   width: 92%;
 }
 #logoName {
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 64px;
-  color: #000;
+  font-size: 1.5rem;
+  color: rgb(24, 23, 23);
+  font-weight: bold;
 }
 .NavTop {
   border-bottom: 10px solid #3A7EC1;
@@ -40,14 +39,13 @@ header .container-fluid {
 .nav-menu .menu-active {
   border-bottom: 10px solid #fff;
 }
-
 .mtop {
   margin-top: -20rem;
   height: 100vh;
 }
-/* .mP {
+.mP {
   margin-top: 20rem;
-} */
+}
 .insight {
   margin-left: 10rem;
   margin-bottom: 1rem;
@@ -86,7 +84,7 @@ a,
   width: 84%;
   margin: auto;
   border-bottom: 0.1rem solid black;
-  margin-top: 14.5rem;
+  margin-top: 6.5rem;
 }
 .active {
   color: white;
@@ -100,7 +98,6 @@ a,
   font-size: 1.5rem;
   color: rgb(12, 11, 11);
 }
-
 .pdtop-90 {
   margin-top: 90px;
 }
@@ -186,3 +183,4 @@ font-size: 16px !important;
 .icon-wrapper i {
   font-size: 100px;
 }
+
