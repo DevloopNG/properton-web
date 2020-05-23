@@ -4355,6 +4355,7 @@ dl.accordion.time-line:before {
 
 .single-footer-widget ul li a:hover {
   color: #8490ff;
+  background: none;
 }
 
 .single-footer-widget .bb-btn {
