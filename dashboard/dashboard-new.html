@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard for Properton's CRM, CMS, etc.">
+    <meta name="author" content="dashboard">
+
+    <title>Dashboard</title>
+
+    <!-- App css -->
+    <link href="../dashboard/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../dashboard/css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="../dashboard/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../asset/css/main.css">
+    <link rel="stylesheet" href="../asset/css/style.css">
+
+    <script>const AUTH_REQUIRED = true;</script>
+    <script src="../dashboard/js/modernizr.min.js"></script>
+    <style>
+        body {
+            background: #C4C4C4;
+        }
+        .side-menu {
+            top: 0;
+            box-shadow: none;
+        }
+        #sidebar-menu {
+            padding: 60px 10px 10px 10px;
+        }
+        .content-page .content {
+            padding: 0;
+            margin: 0;
+        }
+        .content-details {
+            margin: 0 10px;
+            background: white;
+            padding: 30px 0 0 20px;
+            justify-content: center;
+        }
+        .notifications {
+            padding-bottom: 60px;
+        }
+        .active {
+            color: black;
+        }
+    </style>
+
+</head>
+
+
+<body class="fixed-left dashboard">
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left side-menu">
+            <div class="sidebar-inner slimscrollleft">
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Nav tabs -->
+                    <div class="recent-wrapper">
+                        <p><strong>RECENT INVESTMENTS</strong></p>
+                    </div>
+                    <div class="notifications">
+                        <div>
+                            <a href><p>You viewed <strong>500 - Rooms Hostel, OAU , Ile-Ife</strong> - Today, 2:18pm</p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You just <strong>invested</strong> into <strong>300-Rooms Hotel, Mowe, Ofada, Ogun State</strong> - Today, 8:00pm </p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You just <strong>Co-owned</strong> with 3 others <strong>in 3 Bedroom Duplex, Oyewusi Road, Ifako Orile.</strong> - Today, 8:00pm</p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You viewed <strong>500 - Rooms Hostel, OAU , Ile-Ife</strong> - Today, 8:00pm</p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You just <strong>invested</strong> into <strong>300-Rooms Hotel, Mowe, Ofada, Ogun State</strong> - Today, 8:00pm </p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You just <strong>Co-owned</strong> with 3 others <strong>in 3 Bedroom Duplex, Oyewusi Road, Ifako Orile.</strong> - Today, 8:00pm</p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You viewed <strong>500 - Rooms Hostel, OAU , Ile-Ife</strong> - Today, 8:00pm</p></a>
+                        </div>
+                        <div>
+                            <a href=""><p>You just <strong>invested</strong> into <strong>300-Rooms Hotel, Mowe, Ofada, Ogun State</strong> - Today, 8:00pm </p></a>
+                        </div>
+                    </div>
+                    <button class="btn btn-info btn-support">Support</button>
+                    
+                    <div class="clearfix"></div>
+                </div>
+                <!-- Sidebar -->
+                <div class="clearfix"></div>
+
+            </div>
+
+        </div>
+        <!-- Left Sidebar End -->
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <!-- Start content -->
+            <div class="content">
+                <div class="d-flex">
+                    <div class="content-details">
+                        <div class="d-flex">
+                            <div class="date-wrapper">
+                                <p>
+                                    <script>
+                                        document.write(new Date().getDate());
+                                    </script>
+                                    <br>
+                                    <script>
+                                        document.write(new Date().toLocaleString('default', { month: 'long' }));
+                                    </script>
+                                </p>
+                            </div>
+                            <div>
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center active" data-toggle="tab" href="#dashboard">
+                                            <img src="images/dashboard.png" class="img-fluid" alt="dashboard icon">
+                                            <p>DASHBOARD</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" data-toggle="tab" href="#crowdfunding">
+                                            <img src="images/crowdfund.png" class="img-fluid" alt="crowdfunding icon">
+                                            <p>CROWDFUNDING</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" data-toggle="tab" href="#co-owning">
+                                            <img src="images/co-owning.png" class="img-fluid" alt="co-owning icon">
+                                            <p>CO-OWNING</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" data-toggle="tab" href="#my-listings">
+                                            <img src="images/my-listings.png" class="img-fluid" alt="list icon">
+                                            <p>MY LISTINGS</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" data-toggle="tab" href="#documents">
+                                            <img src="images/documents.png" class="img-fluid" alt="documents icon">
+                                            <p>DOCUMENTS</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-center" data-toggle="tab" href="#f-management">
+                                            <img src="images/f-management.png" class="img-fluid" alt="management icon" style="height: 50px;">
+                                            <p>F.MANAGEMENT</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="dashboard">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="mt-5">
+                                            <div class="recent-wrapper">
+                                                <p><strong>RECENT INVESTMENTS</strong></p>
+                                            </div>
+                                            <div class="row recent-investments">
+                                                <div class="col-xl-6">
+                                                    <div>
+                                                        <img src="../asset/svg/dashouse1.svg" class="img-fluid" alt="a picture of a house">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div>
+                                                        <img src="../asset/svg/dashouse2.svg" class="img-fluid" alt="a picture of a house" style="margin-left: -5px;">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div>
+                                                        <img src="../asset/svg/dashouse3.svg" class="img-fluid" alt="a picture of a house">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6">
+                                                    <div>
+                                                        <img src="../asset/svg/dashouse1.svg" class="img-fluid" alt="a picture of a house" style="margin-left: -5px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <div class="mt-5">
+                                            <div class="recent-wrapper">
+                                                <p><strong>RECENT INVESTMENTS</strong></p>
+                                            </div>
+                                            <div class="text-center">
+                                                <p style="padding-top: 6rem;">No listing</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- end col-->
+                                    <div class="col-xl-4 text-center mb-20">
+                                        <div class="mt-5 w-100 text-center">
+                                            <div class="recent-wrapper">
+                                                <p><strong>MY ACCOUNTS OVERVIEW</strong></p>
+                                            </div>
+                                            <div class="w-100">
+                                                <canvas id="pie" height="240" width="400" class="pie"></canvas>
+                                            </div>
+                                        </div>
+                                    </div><!-- end col-->
+                                </div>   
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <p class="roi">MY RETURN ON INVESTMENTS (ROI)</p>
+                                            <div class="table-responsive text-center">
+                                                <table class="table table-borderless">
+                                                    <thead>
+                                                        <tr>
+                                                          <th></th>
+                                                          <th>STATUS</th>
+                                                          <th>TENURE</th>
+                                                          <th>AMOUNT</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../asset/svg/dashouse1.svg" class="img-fluid" alt="">
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">Due in 4 Months</div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">Every 6 months</div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">15,000,000:00</div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../asset/svg/dashouse2.svg" class="img-fluid" alt="">
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">Active</div></td>
+                                                            <td>
+                                                                <div class="mt-4">Every 6 months</div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">8,000,000:00</div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="../asset/svg/dashouse3.svg" class="img-fluid" alt="">
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">Active</div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">Self-Owned Property</div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="mt-4">8,000,000:00</div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div><!-- end col-->
+                                </div> 
+                            </div>
+                            <div class="tab-pane container fade" id="crowdfunding">...</div>
+                            <div class="tab-pane container fade" id="co-owning">...</div>
+                            <div class="tab-pane container fade" id="my-listings">...</div>
+                            <div class="tab-pane container fade" id="documents">...</div>
+                            <div class="tab-pane container fade" id="f-management">...</div>
+                        </div>
+                        <!-- end row -->
+
+                        
+                        <!-- end row -->
+                        <p class="footer-text text-center ml-auto" style="text-transform: initial;">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | Properton
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                    <div style="width: 250px;">
+                        <!-- User -->
+                        <!-- <div class="user-box">
+                            <div class="user-img">
+                                <img src="../dashboard/images/users/user.svg" alt="user-img" title="Mat Helme"
+                                    class="rounded-circle img-thumbnail img-responsive">
+                                <div class="user-status offline"><i class="mdi mdi-adjust"></i></div>
+                            </div>
+                            <h5 class="my-2"><a href="#" class="displayName">ADUKE MORENIKEJI</a> </h5>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="../login.html" class="text-custom">
+                                        <i class="mdi mdi-power"><span>Logout</span></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <!-- End User -->
+                        <div class="d-flex">
+                            <div>
+                                
+                            </div>
+                            <div>
+                                <img src="images/profile-picture.png" class="img-fluid" alt="profile picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- content -->
+        </div>
+
+
+        <!-- ============================================================== -->
+        <!-- End Right content here -->
+        <!-- ============================================================== -->
+
+    </div>
+    <!-- END wrapper -->
+
+
+    <!-- jQuery  -->
+    <script src="../dashboard/js/jquery.min.js"></script>
+    <script src="../dashboard/js/popper.min.js"></script>
+    <script src="../dashboard/js/bootstrap.min.js"></script>
+    <script src="../dashboard/js/detect.js"></script>
+    <script src="../dashboard/js/fastclick.js"></script>
+    <script src="../dashboard/js/jquery.blockUI.js"></script>
+    <script src="../dashboard/js/waves.js"></script>
+    <script src="../dashboard/js/jquery.nicescroll.js"></script>
+    <script src="../dashboard/js/jquery.slimscroll.js"></script>
+    <script src="../dashboard/js/jquery.scrollTo.min.js"></script>
+
+    <!-- Chart JS -->
+    <script src="../dashboard/plugins/chart.js/Chart.bundle.min.js"></script>
+    <script src="../dashboard/pages/jquery.chartjs.init.js"></script>
+
+    <!-- App js -->
+    <script src="../dashboard/js/jquery.core.js"></script>
+    <script src="../dashboard/js/jquery.app.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../asset/js/custom.js"></script>
+
+</body>
+
+</html>
